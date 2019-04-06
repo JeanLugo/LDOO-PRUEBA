@@ -1,0 +1,10 @@
+head{
+	font-family:Arial, sans-serif;
+}
+
+body{
+	background: url(Imagen.jpg);
+	background-attachment: scroll; 
+	margin-top: 200px;
+	margin-left: 500px; 
+}

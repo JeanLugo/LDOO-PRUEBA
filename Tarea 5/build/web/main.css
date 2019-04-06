@@ -1,0 +1,19 @@
+head{
+	font-family:Arial, sans-serif;
+}
+
+body{
+	background: url(Imagen.jpg);
+	background-attachment: scroll; 
+}
+form{
+    width:800px;
+    height:540px;
+    background-color:  #ffe6e6;
+    font-size: 30px;            
+    font-family: "Times New Roman";
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-top: 40px;
+}

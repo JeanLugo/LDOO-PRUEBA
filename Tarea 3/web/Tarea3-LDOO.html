@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Tarea 3 </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+
+        <h3 id="USU">- -Registro de Usurario - -</h3>
+
+        <div id="FORMU">    
+        	<form onsubmit="return validar()" action="Registro.jsp">
+        		<table border="0">
+               
+                <tr>
+                    <td><label>Nombre:</label></td>
+                    <td><input id="nombre" type="text" name="nombre" required></td>
+                </tr>
+                <tr>
+                    <td><label>Apellido:</label></td>
+                    <td><input id="ape" type="text" name="ape" required></td>
+                </tr>
+                <tr>
+                    <td><label>Edad:</label></td>
+                    <td><input id="edad" type="text" name="edad" placeholder="Solo números" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label>Correo:</label></td>
+                    <td><input id="correo" type="email" name="correo" required></td>
+                </tr>
+                <tr>
+                    <td><label>Eliga una contraseña:</label></td>
+                    <td><input id="contra" type="password" name="contra" onpaste="return false" placeholder="Minimo 8 digitos" required></td>
+                </tr>
+                <tr>
+                    <td><label>Codigo Postal:</label></td>
+                    <td><input id="CoPo" type="text" name="CoPo" placeholder="5 digitos" required></td>
+                </tr>
+            </table>
+            <input type="submit" name="Enviar">
+            <input type="reset" name="Reset">
+        	</form>
+        </div>
+    </body>
+</html>

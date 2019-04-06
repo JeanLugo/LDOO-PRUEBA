@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tarea2.LDOO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main2.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>- - - - -Proceso de registro de la pagina- - - - -</h1>
+        <br>
+        <br>
+        <div>
+            <form action="Registro" method="post" id="formu" onsubmit="return validar();">
+            <table border="0">
+               
+                <tr>
+                    <td><label>Nombre:</label></td>
+                    <td><input id="nombre" type="text" name="nombre" required></td>
+                </tr>
+                <tr>
+                    <td><label>Apellido:</label></td>
+                    <td><input id="apellido" type="text" name="apellido" required></td>
+                </tr>
+                 <tr>
+                    <td><label>Edad:</label></td>
+                    <td><input id="edad" type="text" name="edad" required></td>
+                </tr>
+
+                <tr>
+                    <td><label>Correo:</label></td>
+                    <td><input id="correo" type="text" name="correo" required></td>
+                </tr>
+                <tr>
+                    <td><label>Eliga una contraseña:</label></td>
+                    <td><input id="contra" type="password" name="contra" onpaste="return false" required></td>
+                </tr>
+                <tr>
+                    <td><label>Codigo Postal:</label></td>
+                    <td><input id="CoPo" type="text" name="CoPo" onpaste="return false" required></td>
+                </tr>
+            </table>
+            <input type="submit" name="Enviar">
+            <input type="reset" name="Reset">
+            </form>
+        </div> 
+    </body>
+</html>
