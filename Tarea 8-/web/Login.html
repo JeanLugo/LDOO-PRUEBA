@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>INICIO DE SESIÓN</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div>
+            <form id="texto" action="Controlador" id="formu" method="post" > 
+                <fieldset>
+                    <legend>Inicie sesión con su cuenta previamente creada</legend>
+                    <table border="0">
+                         <tr>
+                            <td><label>Correo:</label></td>
+                            <td><input type="text" name="mail" required size="50"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Contraseña:</label></td>
+                            <td><input type="password" name="contraS" required size="50"></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Iniciar sesión" > 
+                    <br>
+                    <label>Aún no tiene una cuenta?</label>
+                    <br>
+                    <a id="aa" href="form.html">Cree una cuenta ahora mismo</a>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
