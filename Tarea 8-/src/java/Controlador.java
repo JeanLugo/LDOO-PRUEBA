@@ -90,7 +90,7 @@ public class Controlador extends HttpServlet {
             String cumple = request.getParameter("cumple");
 
             if(nombre.equals("") || apellidoP.equals("") || correo.equals("") || apellidoM.equals("") || correo.equals("")){
-               request.getRequestDispatcher("incompleto.jsp").forward(request, response);
+               request.getRequestDispatcher("Oops.html").forward(request, response);
             }else {
 
             Registro r=new Registro();
