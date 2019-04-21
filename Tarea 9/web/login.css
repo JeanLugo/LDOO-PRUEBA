@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+label{
+  color: white;
+}
+.ccs{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919; 
+  text-align: center;
+  border-radius: 24px;
+}
+.ccs h1{
+  color: white;
+  font-weight: 500;
+}
+.ccs input[type="email"], input[type="password"], input[type="text"], input[type="date"]{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.ccs input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="date"]:focus{
+  width: 280px;
+  border-color: #95a5a6;
+}
+.ccs input[type="submit"]{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.ccs input[type="submit"]:hover{
+  background: #2ecc71;
+  width: 225px;
+}
+.ccs input[type="reset"]{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #c0392b;
+  padding: 14px 40px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.ccs input[type="reset"]:hover{
+  background: #c0392b;
+  width: 225px;
+}

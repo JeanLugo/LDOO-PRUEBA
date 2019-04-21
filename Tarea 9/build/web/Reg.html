@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Registrarse </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+
+        <h1>- -Registro de Usurario - -</h1>
+
+        <div id="FORMU">    
+        	<form id="texto" onsubmit="return validar()" action="Controlador" method="post">
+        		<fieldset>
+                    <legend>Proceso de registro</legend>
+                    <table border="0">
+                       
+                        <tr>
+                            <td><label>Nombre:</label></td>
+                            <td><input id="nombre" type="text" name="nombre" required size="50"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Apellido Paterno:</label></td>
+                            <td><input id="ape" type="text" name="apellidoPa" required size="50"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Apellido Materno:</label></td>
+                            <td><input id="ape2" type="text" name="apellidoMa" required size="50"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Fecha de nacimiento:</label></td>
+                            <td><input type="date" name="cumple" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Correo:</label></td>
+                            <td><input id="correo" type="email" name="correo" placeholder="example@example.com" required size="50"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Eliga una contraseña:</label></td>
+                            <td><input id="contra" type="password" name="contra" placeholder="Minimo 8 digitos" required size="50"></td>
+                            <input type="hidden" name="controlar" value="1">
+                        </tr>
+                    </table>
+                </fieldset>
+            <input type="submit" value="Enviar"> 
+            <input type="reset" name="Reset">
+            <a href='Login.html'>Iniciar sesión</a>
+        	</form>
+        </div>
+    </body>
+</html>
