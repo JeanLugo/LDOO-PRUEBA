@@ -1,0 +1,33 @@
+    
+#header {
+	margin:auto;
+	width:500px;
+	font-family:Arial, sans-serif;
+}
+ul, ol{
+	list-style: none;
+} 
+
+.nav li a {
+	background-color: #FBEFEF;
+	color:#000;
+	text-decoration:none; 
+	padding: 10px 15px;
+	display:block; 
+}
+.nav > li{
+	float:left;
+}
+
+body{
+	background: url(https://www.pintores-decoradores.com/wp-content/uploads/2015/04/papel-selma-blanco.jpg);
+	background-attachment: fixed; 
+}
+p a{
+	color:green;
+	font-size: 20px;
+}
+p {
+	justify-content: center;
+	padding: 15px 50px ;
+}
